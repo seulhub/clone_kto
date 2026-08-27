@@ -113,6 +113,8 @@ nav {
 .gnb {
   display: flex;
   gap: 40px;
+
+  margin-right: 40px;
 }
 
 .gnb-item > a {
@@ -147,12 +149,15 @@ nav {
   left: 0;
   top: 100%;
   width: 100%;
-  background: gold;
+  background-color: #fff;
+  color: #222;
 
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
   transition: 0.3s ease;
+
+  height: 330px;
 }
 
 .gnb-item:hover .gnb-dropdown {
@@ -184,6 +189,10 @@ nav {
 
 .submenu-group.is-single h2 {
   margin-bottom: 0;
+}
+
+.submenu-list li {
+  margin-bottom: 12px;
 }
 
 .gnb-icon {
@@ -1443,6 +1452,7 @@ visual 모바일
   .visual .visual-text {
     width: 100%;
     padding: 0px 30px;
+    top: 160px;
   }
 
   .visual-content .visual-text h2 {
@@ -1453,6 +1463,7 @@ visual 모바일
   .visual-menu {
     left: 0;
     right: 0;
+    bottom: 30px;
     width: 100%;
     padding: 0 20px;
   }
