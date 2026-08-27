@@ -1457,6 +1457,7 @@ visual 모바일
 
   .visual-content .visual-text h2 {
     font-size: 1.7rem;
+    word-break: keep-all;
   }
 
   /* visual 서브 메뉴 */
